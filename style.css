@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.25rem;
+}
+p {
+  font-size: 1rem;
+  color: #aeadad;
+}
+h1 {
+  font-size: 3.125rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  line-height: 2.5em;
+}
+.orange-color {
+  color: #ffa500;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 7.5em;
+}
+.hero-content {
+  width: 50%;
+  padding-left: 5.625em;
+  padding-top: 6.25em;
+}
+.hero-image {
+  width: 50%;
+}
+.hero-image img {
+  width: 80%;
+}
+.link-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.hire-me {
+  margin-top: 1.5em;
+}
+.hero-content h3 {
+  margin-bottom: 0.95em;
+}
+.dream-image {
+  width: 50%;
+}
+.dream-image img {
+  width: 80%;
+}
+.dream-content {
+  width: 50%;
+  padding-right: 8em;
+  padding-top: 6.25em;
+}
+.download-resume {
+  margin-top: 1.5em;
+}
+.dream-content h3 {
+  margin-bottom: 0.95em;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* .half-width{
+  width: 50%;
+  padding: 1.50em 4.31em;
+ 
+  
+
+} */
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  padding: 1.875em 3.125em;
+  margin-top: 3.125em;
+  border-radius: 10px;
+  margin-bottom: 2.5em;
+}
+/* .full-stack{
+  border-left: 7px solid tomato;
+  border-radius: 10px;
+  
+
+}
+.nob-web{
+  border-left: 7px solid;
+border-image: linear-gradient(blue 100%, cyan 100%);
+border-image-slice: 1;
+} */
+#full-stack {
+  border-left: 7px solid tomato;
+}
+#full-stack h3 {
+  margin-bottom: 8px;
+}
+#nob-web {
+  border-left: 7px solid blue;
+}
+#nob-web h3 {
+  margin-bottom: 20px;
+}
+footer p {
+  text-align: center;
+  margin-bottom: 20px;
+}
